@@ -1,12 +1,13 @@
-package com.example.bookpub.main;
+package com.example.bookpub;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-import org.springframework.scheduling.annotation.EnableScheduling;
 
+/**
+ * @author anilb
+ */
 @SpringBootApplication
-@EnableScheduling
-public class BookpubApplication  {
+public class BookpubApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(BookpubApplication.class, args);
